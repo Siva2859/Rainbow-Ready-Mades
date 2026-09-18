@@ -35,11 +35,11 @@ TOPIC_CLUSTERS = [
     ("prod_silk_kurta", ["kids", "art silk", "silk kurta", "kurta set", "yellow", "royal blue", "children", "pajama", "festive kurta"]),
     ("prod_bandhani", ["bandhani", "saree", "rajasthani", "blouse", "zari", "georgette", "pallu", "tie-dye"]),
     ("prod_slub_kurta", ["slub", "cotton kurta", "casual kurta", "olive", "green", "mustard", "wooden button"]),
-    ("exchange_policy", ["exchange", "return", "refund", "policy", "fit", "size", "receipt", "bill", "3 days", "3-day", "store credit", "damage", "tags"]),
+    ("exchange_policy", ["exchange", "return", "refund", "policy", "fit", "size", "receipt", "bill", "10 days", "10-day", "3 days", "3-day", "store credit", "damage", "tags"]),
     ("alteration_policy", ["alteration", "alterations", "tailoring", "tailor", "length", "waist", "hem", "stitching", "fitting", "adjustment"]),
-    ("delivery_shipping", ["delivery radius", "shipping fee", "delivery fee", "delivery charge", "delivery charges", "shipping", "deliver", "radius", "15 km", "fee", "999", "50", "areas", "coverage"]),
+    ("delivery_shipping", ["delivery radius", "shipping fee", "delivery fee", "delivery charge", "delivery charges", "shipping", "deliver", "radius", "10 km", "10km", "15 km", "fee", "999", "50", "areas", "coverage"]),
     ("store_pickup", ["store pickup", "pickup", "pick up", "collect at shop"]),
-    ("payment_policy", ["payment", "pay", "upi", "cash", "cod", "qr", "google pay", "phonepe", "paytm", "card", "modes"]),
+    ("payment_policy", ["payment", "pay", "upi", "cash", "cod", "qr", "google pay", "phonepe", "paytm", "card", "modes", "cash on delivery"]),
     ("contact_info", ["contact", "phone", "whatsapp", "call", "number", "reach", "email", "support"]),
     ("store_trial", ["trial", "trial room", "fitting room", "air-conditioned", "try"])
 ]
@@ -126,7 +126,7 @@ class DualEmbeddingFunction(EmbeddingFunction[Documents]):
         return self.embed_documents(input)
 
     def embed_documents(self, texts: Documents) -> Embeddings:
-        if self._genai_client:
+        if self._genai_client and self.model_name not in ["local", "none", ""]:
             try:
                 embeddings = []
                 for text in texts:

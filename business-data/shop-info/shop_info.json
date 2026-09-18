@@ -16,22 +16,21 @@
     "sunday": "11:00 AM to 08:00 PM"
   },
   "delivery_areas": [
-    "Gandhi Road",
-    "Clock Tower Market Area",
-    "Central Town",
-    "Station Road",
-    "Local City Radius (up to 15 km)"
+    "Local area within 10 km radius of the store"
   ],
-  "delivery_radius_km": 15,
-  "delivery_terms": "Same-day delivery for orders placed before 3:00 PM; next-day delivery for later orders. Free delivery on orders above ₹999. Flat ₹50 delivery charge for orders under ₹999.",
+  "delivery_radius_km": 10,
+  "delivery_terms": "Delivery is available within a 10 km range of the store.",
   "payment_methods": [
-    "Cash on Delivery (COD)",
-    "UPI / QR Code (Google Pay, PhonePe, Paytm)",
-    "Store Pickup (Pay at Shop)"
+    "Cash",
+    "UPI",
+    "PhonePe",
+    "Google Pay",
+    "Card",
+    "Cash on Delivery"
   ],
-  "return_policy_summary": "Exchanges allowed within 3 days of purchase or delivery. Direct cash refunds are not offered; store credit or size/color replacement is provided. Garments must have original tags intact, be unworn, unwashed, and accompanied by the original receipt or order ID.",
-  "exchange_policy_summary": "Size and color exchanges can be initiated online through the order tracking portal or in-store within 3 days. Subject to stock availability.",
+  "return_policy_summary": "Returns and exchanges are allowed within 10 days. Both exchanges and refunds are permitted, including for damaged or wrong-product cases.",
+  "exchange_policy_summary": "Exchanges and returns are permitted within 10 days of purchase or delivery.",
   "alteration_summary": "Complimentary length and waist alterations available for garments purchased at Rainbow Ready Mades, with a 24-48 hour turnaround time.",
-  "source": "Rainbow Ready Mades Store Manager & Physical Storefront Records",
-  "date_verified": "2026-09-18"
+  "source": "Rainbow Ready Mades Verified Business Records",
+  "date_verified": "2026-09-19"
 }

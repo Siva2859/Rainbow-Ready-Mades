@@ -32,7 +32,7 @@
     "category": "KNOWN_BUSINESS",
     "query": "What is your return and exchange policy if a garment doesn't fit?",
     "expected_grounded": true,
-    "expected_keywords": ["3", "exchange"]
+    "expected_keywords": ["10", "exchange"]
   },
   {
     "id": "known_06",
@@ -44,9 +44,9 @@
   {
     "id": "known_07",
     "category": "KNOWN_BUSINESS",
-    "query": "What is your delivery radius and shipping fee?",
+    "query": "What is your delivery radius for orders?",
     "expected_grounded": true,
-    "expected_keywords": ["15 km", "999"]
+    "expected_keywords": ["10 km"]
   },
   {
     "id": "known_08",

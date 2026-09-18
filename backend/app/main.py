@@ -1,9 +1,12 @@
+import os
 import logging
+from pathlib import Path
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request, status, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from fastapi.exceptions import RequestValidationError
+from fastapi.staticfiles import StaticFiles
 
 from app.core.config import settings
 from app.db.database import engine, SessionLocal
@@ -22,6 +25,7 @@ from app.routers.orders import router as orders_router
 from app.routers.returns import router as returns_router
 from app.routers.admin import router as admin_router
 from app.routers.chat import router as chat_router
+from app.routers.store import router as store_router
 
 logging.basicConfig(
     level=logging.INFO,
@@ -155,3 +159,18 @@ app.include_router(orders_router, prefix=api_v1)
 app.include_router(returns_router, prefix=api_v1)
 app.include_router(admin_router, prefix=api_v1)
 app.include_router(chat_router, prefix=api_v1)
+app.include_router(store_router, prefix=api_v1)
+
+
+# ------------------------------------------------------------------------------
+# Static Files Serving (Store, Product & Model Assets)
+# ------------------------------------------------------------------------------
+# Resolve project root assets directory: Rainbow Readymades/assets
+REPO_ROOT = Path(__file__).resolve().parents[2]
+ASSETS_DIR = REPO_ROOT / "assets"
+if ASSETS_DIR.exists():
+    app.mount("/assets", StaticFiles(directory=str(ASSETS_DIR)), name="assets")
+    logger.info(f"Mounted static assets from: {ASSETS_DIR}")
+else:
+    logger.warning(f"Assets directory not found at: {ASSETS_DIR}")
+

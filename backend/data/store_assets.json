@@ -1,0 +1,40 @@
+{
+  "business": "Rainbow Ready Mades",
+  "store": {
+    "storefront_main": "/assets/store/storefront-main.jpg",
+    "storefront_alt": "/assets/store/storefront-alt.jpg",
+    "interior_1": "/assets/store/store-interior-1.jpg",
+    "interior_2": "/assets/store/store-interior-2.jpg"
+  },
+  "models": [
+    "/assets/models/model-red-check-shirt.jpg",
+    "/assets/models/model-navy-shirt.jpg",
+    "/assets/models/model-white-shirt.jpg",
+    "/assets/models/model-maroon-shirt.jpg"
+  ],
+  "gallery": [
+    "/assets/store/storefront-main.jpg",
+    "/assets/store/storefront-alt.jpg",
+    "/assets/store/store-interior-1.jpg",
+    "/assets/store/store-interior-2.jpg"
+  ],
+  "available_product_images": [
+    "/assets/products/abstract-print-shirts.jpg",
+    "/assets/products/check-shirt-collection.jpg",
+    "/assets/products/check-shirts-2.jpg",
+    "/assets/products/colour-king-check-shirts.jpg",
+    "/assets/products/dark-check-shirt-pair.jpg",
+    "/assets/products/floral-print-shirts.jpg",
+    "/assets/products/floral-shirt-pair-1.jpg",
+    "/assets/products/floral-shirt-pair-2.jpg",
+    "/assets/products/jeans-shirt-display-1.jpg",
+    "/assets/products/jeans-shirt-display-2.jpg",
+    "/assets/products/jeans-shirt-display-3.jpg",
+    "/assets/products/junglee-rummy-shirts-1.jpg",
+    "/assets/products/junglee-rummy-shirts-2.jpg",
+    "/assets/products/light-check-shirt-pair.jpg",
+    "/assets/products/packaged-shirt.jpg",
+    "/assets/products/ultra-club-shirts-1.jpg",
+    "/assets/products/ultra-club-shirts-2.jpg"
+  ]
+}

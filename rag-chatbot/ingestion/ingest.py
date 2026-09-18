@@ -61,14 +61,22 @@ def run_ingestion(data_dir: Path = DATA_DIR, chroma_dir: Path = CHROMA_DIR) -> i
     try:
         client.delete_collection(name=COLLECTION_NAME)
         print(f"Cleared existing '{COLLECTION_NAME}' collection.")
-    except Exception:
-        pass
+    except Exception as e:
+        print(f"Notice: delete_collection skipped ({e}), will clean via document IDs.")
 
-    collection = client.create_collection(
+    collection = client.get_or_create_collection(
         name=COLLECTION_NAME,
         embedding_function=default_embedder,
         metadata={"hnsw:space": "cosine"}
     )
+
+    try:
+        existing_ids = collection.get().get("ids", [])
+        if existing_ids:
+            collection.delete(ids=existing_ids)
+            print(f"Cleared {len(existing_ids)} existing chunks from '{COLLECTION_NAME}'.")
+    except Exception:
+        pass
 
     # 4. Prepare batch payload
     ids = [c["chunk_id"] for c in chunks]

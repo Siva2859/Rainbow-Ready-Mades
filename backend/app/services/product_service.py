@@ -27,24 +27,27 @@ class ProductService:
         if not colors and product.variants:
             colors = list(dict.fromkeys(v.color for v in product.variants if v.color))
 
-        # Determine primary image URL
+        # Determine primary image URL and all images
         primary_img = None
+        images = []
         if product.images:
-            for img in sorted(product.images, key=lambda x: (not x.is_primary, x.display_order)):
-                primary_img = img.image_url
-                break
+            sorted_imgs = sorted(product.images, key=lambda x: (not x.is_primary, x.display_order))
+            primary_img = sorted_imgs[0].image_url
+            images = [img.image_url for img in sorted_imgs]
         
         category_name = product.category.name if product.category else product.category_id
 
         return ProductResponse(
             id=product.id,
             title=product.title,
+            name=product.title,
             category=category_name,
             category_id=product.category_id,
             price=float(product.price),
             discount_price=float(product.discount_price) if product.discount_price else None,
             material=product.material,
             primary_image_url=primary_img,
+            images=images,
             in_stock=in_stock,
             stock_count=total_stock,
             sizes=sizes,
@@ -57,15 +60,13 @@ class ProductService:
     def format_product_detail_response(product: Product) -> ProductDetailResponse:
         """Converts a Product model instance into a ProductDetailResponse with all gallery images."""
         base_resp = ProductService.format_product_response(product)
-        image_urls = [img.image_url for img in sorted(product.images, key=lambda x: (not x.is_primary, x.display_order))]
+        data = base_resp.model_dump()
+        data["description"] = product.description
+        data["care_instructions"] = product.care_instructions
+        data["images"] = [img.image_url for img in sorted(product.images, key=lambda x: (not x.is_primary, x.display_order))]
+        data["verified_at"] = product.created_at.strftime("%Y-%m-%d") if product.created_at else None
         
-        return ProductDetailResponse(
-            **base_resp.model_dump(),
-            description=product.description,
-            care_instructions=product.care_instructions,
-            images=image_urls,
-            verified_at=product.created_at.strftime("%Y-%m-%d") if product.created_at else None
-        )
+        return ProductDetailResponse(**data)
 
     @staticmethod
     def get_products(

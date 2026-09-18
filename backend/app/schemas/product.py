@@ -50,12 +50,14 @@ class ProductResponse(BaseModel):
 
     id: str
     title: str
+    name: Optional[str] = None
     category: str
     category_id: str
     price: float
     discount_price: Optional[float] = None
     material: str
     primary_image_url: Optional[str] = None
+    images: List[str] = []
     in_stock: bool
     stock_count: int
     sizes: List[str] = []

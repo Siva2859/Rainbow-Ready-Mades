@@ -99,13 +99,35 @@ class SeedService:
                     db.add(product)
                     db.flush()
 
-                    # Add image
-                    if data.get("image"):
+                    # Check if product_image_mapping.json provides images for this product
+                    mapping_file = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "product_image_mapping.json")
+                    images_to_add = []
+                    if os.path.exists(mapping_file):
+                        try:
+                            with open(mapping_file, "r", encoding="utf-8") as mf:
+                                mapping_data = json.load(mf)
+                                mapped = mapping_data.get("mappings", {}).get(prod_id, [])
+                                if isinstance(mapped, list):
+                                    images_to_add.extend(mapped)
+                        except Exception as map_err:
+                            logger.debug(f"Could not read product_image_mapping.json: {map_err}")
+
+                    # Fallback to single image from product JSON if no mapping defined
+                    if not images_to_add and data.get("image"):
+                        images_to_add.append(data["image"])
+
+                    for idx, img_path in enumerate(images_to_add):
+                        clean_path = img_path.strip().replace("\\", "/")
+                        if not clean_path.startswith("/"):
+                            clean_path = f"/{clean_path}"
+                        if not clean_path.startswith("/assets/"):
+                            clean_path = f"/assets{clean_path}"
+
                         img = ProductImage(
                             product_id=product.id,
-                            image_url=data["image"],
-                            is_primary=True,
-                            display_order=0
+                            image_url=clean_path,
+                            is_primary=(idx == 0),
+                            display_order=idx
                         )
                         db.add(img)
 

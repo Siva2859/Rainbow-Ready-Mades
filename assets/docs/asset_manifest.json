@@ -1,0 +1,180 @@
+{
+  "business": "Rainbow Ready Mades",
+  "assets": [
+    {
+      "asset_id": "rrm_001",
+      "filename": "store/storefront-main.jpg",
+      "source_filename": "2e284a72-7bf7-40e4-a55d-30f50b9e963f.png",
+      "asset_type": "store",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_002",
+      "filename": "store/store-interior-1.jpg",
+      "source_filename": "603a56eb-15d5-4fca-8a02-c29da5aaa914.png",
+      "asset_type": "store",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_003",
+      "filename": "models/model-red-check-shirt.jpg",
+      "source_filename": "5224a3a8-30c9-442f-a692-bc77dbfeb7fc.png",
+      "asset_type": "model",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_004",
+      "filename": "models/model-navy-shirt.jpg",
+      "source_filename": "3d24e720-6902-49c3-ad01-45cde9776a25.png",
+      "asset_type": "model",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_005",
+      "filename": "models/model-white-shirt.jpg",
+      "source_filename": "66cc7bf2-aef6-449c-8111-f3bed8cb8fe4.png",
+      "asset_type": "model",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_006",
+      "filename": "store/storefront-alt.jpg",
+      "source_filename": "bd5ffb96-7e6a-42a9-bdbb-8dd811d1b4ac.png",
+      "asset_type": "store",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_007",
+      "filename": "products/jeans-shirt-display-1.jpg",
+      "source_filename": "02950cb9-cba3-4fd4-83d5-38383107a005.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_008",
+      "filename": "products/jeans-shirt-display-2.jpg",
+      "source_filename": "2675d645-1a2f-4478-841c-271ba7fcf53e.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_009",
+      "filename": "products/jeans-shirt-display-3.jpg",
+      "source_filename": "9c1e4942-8037-4646-be93-111c9066beb9.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_010",
+      "filename": "store/store-interior-2.jpg",
+      "source_filename": "6efd8bd3-e398-4209-9b56-834a124763fd.png",
+      "asset_type": "store",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_011",
+      "filename": "products/check-shirts-2.jpg",
+      "source_filename": "96990c83-6ef9-4465-8c6d-23d7b193ede2.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_012",
+      "filename": "products/junglee-rummy-shirts-1.jpg",
+      "source_filename": "a783c8cb-edfa-4dfb-8fa3-8d9eed1b2ec7.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_013",
+      "filename": "products/junglee-rummy-shirts-2.jpg",
+      "source_filename": "18558e8c-6645-4aad-a4f7-8054c63a74b9.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_014",
+      "filename": "products/packaged-shirt.jpg",
+      "source_filename": "cd30fb08-c60d-4896-98d1-4be6f52fbd09.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_015",
+      "filename": "products/abstract-print-shirts.jpg",
+      "source_filename": "60bded13-54ef-4ca9-b5dc-197bde656015.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_016",
+      "filename": "products/floral-print-shirts.jpg",
+      "source_filename": "306a92c1-d480-404a-8de6-31368c619f18.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_017",
+      "filename": "models/model-maroon-shirt.jpg",
+      "source_filename": "d05e9f3f-debf-4a73-8c5f-57b2ab6b199b.png",
+      "asset_type": "model",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_018",
+      "filename": "products/floral-shirt-pair-1.jpg",
+      "source_filename": "b1e8a034-1003-44ed-95c9-ebe892f462c6.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_019",
+      "filename": "products/floral-shirt-pair-2.jpg",
+      "source_filename": "08377876-6768-4268-b061-fdb3db7201a3.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_020",
+      "filename": "products/colour-king-check-shirts.jpg",
+      "source_filename": "c68906c7-d3be-4dfc-b371-cef4d270ed8f.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_021",
+      "filename": "products/light-check-shirt-pair.jpg",
+      "source_filename": "410174a5-3372-4673-98d0-aee934744563.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_022",
+      "filename": "products/dark-check-shirt-pair.jpg",
+      "source_filename": "6b41b3b7-fdba-437a-aa50-720cac16b297.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_023",
+      "filename": "products/check-shirt-collection.jpg",
+      "source_filename": "3d1d8268-36e8-467a-8d60-fc5a7e72c7f6.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_024",
+      "filename": "products/ultra-club-shirts-1.jpg",
+      "source_filename": "238c67cb-e7f9-48f2-849e-afe32fb35737.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    },
+    {
+      "asset_id": "rrm_025",
+      "filename": "products/ultra-club-shirts-2.jpg",
+      "source_filename": "5abc3a22-f5ec-4b0a-b89a-d3e45d60d7c8.png",
+      "asset_type": "product_gallery",
+      "notes": "Cleaned crop. Product branding/tags retained; no product metadata inferred from image."
+    }
+  ]
+}
