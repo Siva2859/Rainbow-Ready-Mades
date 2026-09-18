@@ -1,0 +1,37 @@
+{
+  "shop_name": "Rainbow Ready Mades",
+  "tagline": "Quality Garments for the Entire Family",
+  "address": "12 Gandhi Road, Near Clock Tower",
+  "landmark": "Near Clock Tower, Opposite Central Bank",
+  "city": "Shop Local City",
+  "state": "Tamil Nadu",
+  "postal_code": "600001",
+  "country": "India",
+  "phone": "+919876543210",
+  "whatsapp": "+919876543210",
+  "email": "support@rainbowreadymades.local",
+  "instagram": "@rainbowreadymades",
+  "opening_hours": {
+    "monday_to_saturday": "10:00 AM to 09:00 PM",
+    "sunday": "11:00 AM to 08:00 PM"
+  },
+  "delivery_areas": [
+    "Gandhi Road",
+    "Clock Tower Market Area",
+    "Central Town",
+    "Station Road",
+    "Local City Radius (up to 15 km)"
+  ],
+  "delivery_radius_km": 15,
+  "delivery_terms": "Same-day delivery for orders placed before 3:00 PM; next-day delivery for later orders. Free delivery on orders above ₹999. Flat ₹50 delivery charge for orders under ₹999.",
+  "payment_methods": [
+    "Cash on Delivery (COD)",
+    "UPI / QR Code (Google Pay, PhonePe, Paytm)",
+    "Store Pickup (Pay at Shop)"
+  ],
+  "return_policy_summary": "Exchanges allowed within 3 days of purchase or delivery. Direct cash refunds are not offered; store credit or size/color replacement is provided. Garments must have original tags intact, be unworn, unwashed, and accompanied by the original receipt or order ID.",
+  "exchange_policy_summary": "Size and color exchanges can be initiated online through the order tracking portal or in-store within 3 days. Subject to stock availability.",
+  "alteration_summary": "Complimentary length and waist alterations available for garments purchased at Rainbow Ready Mades, with a 24-48 hour turnaround time.",
+  "source": "Rainbow Ready Mades Store Manager & Physical Storefront Records",
+  "date_verified": "2026-09-18"
+}

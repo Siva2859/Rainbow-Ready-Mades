@@ -1,0 +1,24 @@
+{
+  "product_id": "prod_003",
+  "product_name": "Kids Festive Silk Kurta Set",
+  "category": "Kids-Ethnic",
+  "price": 749.00,
+  "original_price": 899.00,
+  "discount": 150.00,
+  "sizes": [
+    "24",
+    "28",
+    "32"
+  ],
+  "colors": [
+    "Golden Yellow",
+    "Royal Blue"
+  ],
+  "material": "Art Silk with 100% Soft Cotton Inner Lining",
+  "description": "Festive two-piece ethnic set featuring a mandarin collar art-silk kurta with soft cotton inner lining to prevent itching, paired with comfortable elasticated cotton-blend pajama.",
+  "care_instructions": "Dry clean recommended for first wash. Subsequent gentle hand wash in mild cold water.",
+  "stock": 10,
+  "image": "assets/products/prod_003_main.jpg",
+  "source": "Rainbow Ready Mades Children's Section Rack K-2",
+  "date_verified": "2026-09-18"
+}

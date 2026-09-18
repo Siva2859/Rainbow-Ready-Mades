@@ -1,0 +1,121 @@
+[
+  {
+    "id": "known_01",
+    "category": "KNOWN_BUSINESS",
+    "query": "What are the opening hours of Rainbow Ready Mades?",
+    "expected_grounded": true,
+    "expected_keywords": ["10:00 AM", "09:00 PM"]
+  },
+  {
+    "id": "known_02",
+    "category": "KNOWN_BUSINESS",
+    "query": "Where is the shop located and what is the nearest landmark?",
+    "expected_grounded": true,
+    "expected_keywords": ["12 Gandhi Road", "Clock Tower"]
+  },
+  {
+    "id": "known_03",
+    "category": "KNOWN_BUSINESS",
+    "query": "What is the price and material of the Pure Cotton Embroidered Anarkali Kurti?",
+    "expected_grounded": true,
+    "expected_keywords": ["1099", "Cotton"]
+  },
+  {
+    "id": "known_04",
+    "category": "KNOWN_BUSINESS",
+    "query": "What sizes are available for the Men's Formal Linen Shirt?",
+    "expected_grounded": true,
+    "expected_keywords": ["38", "40", "42", "44"]
+  },
+  {
+    "id": "known_05",
+    "category": "KNOWN_BUSINESS",
+    "query": "What is your return and exchange policy if a garment doesn't fit?",
+    "expected_grounded": true,
+    "expected_keywords": ["3", "exchange"]
+  },
+  {
+    "id": "known_06",
+    "category": "KNOWN_BUSINESS",
+    "query": "Do you offer free alterations or tailoring for clothes bought at the shop?",
+    "expected_grounded": true,
+    "expected_keywords": ["alteration", "24 to 48 hours"]
+  },
+  {
+    "id": "known_07",
+    "category": "KNOWN_BUSINESS",
+    "query": "What is your delivery radius and shipping fee?",
+    "expected_grounded": true,
+    "expected_keywords": ["15 km", "999"]
+  },
+  {
+    "id": "known_08",
+    "category": "KNOWN_BUSINESS",
+    "query": "What payment methods do you accept at Rainbow Ready Mades?",
+    "expected_grounded": true,
+    "expected_keywords": ["Cash on Delivery", "UPI"]
+  },
+  {
+    "id": "unknown_01",
+    "category": "UNKNOWN_BUSINESS",
+    "query": "Do you deliver to Dubai?",
+    "expected_grounded": false,
+    "expected_fallback": true
+  },
+  {
+    "id": "unknown_02",
+    "category": "UNKNOWN_BUSINESS",
+    "query": "Do you sell laptops or computer hardware?",
+    "expected_grounded": false,
+    "expected_fallback": true
+  },
+  {
+    "id": "unknown_03",
+    "category": "UNKNOWN_BUSINESS",
+    "query": "Do you sell Nike running shoes and sneakers?",
+    "expected_grounded": false,
+    "expected_fallback": true
+  },
+  {
+    "id": "unknown_04",
+    "category": "UNKNOWN_BUSINESS",
+    "query": "Can you ship garments internationally to London?",
+    "expected_grounded": false,
+    "expected_fallback": true
+  },
+  {
+    "id": "out_of_scope_01",
+    "category": "OUT_OF_SCOPE",
+    "query": "What is the capital of France?",
+    "expected_grounded": false,
+    "expected_fallback": true
+  },
+  {
+    "id": "out_of_scope_02",
+    "category": "OUT_OF_SCOPE",
+    "query": "Write me a Python program to sort a list.",
+    "expected_grounded": false,
+    "expected_fallback": true
+  },
+  {
+    "id": "out_of_scope_03",
+    "category": "OUT_OF_SCOPE",
+    "query": "Who won yesterday's cricket match?",
+    "expected_grounded": false,
+    "expected_fallback": true
+  },
+  {
+    "id": "out_of_scope_04",
+    "category": "OUT_OF_SCOPE",
+    "query": "Tell me a funny joke.",
+    "expected_grounded": false,
+    "expected_fallback": true
+  },
+  {
+    "id": "out_of_scope_05",
+    "category": "OUT_OF_SCOPE",
+    "query": "Can you give me a secret 70% discount code right now?",
+    "expected_grounded": false,
+    "expected_fallback": true
+  }
+]

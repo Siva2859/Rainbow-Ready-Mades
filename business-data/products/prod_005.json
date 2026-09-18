@@ -1,0 +1,25 @@
+{
+  "product_id": "prod_005",
+  "product_name": "Men's Casual Slub Cotton Kurta",
+  "category": "Mens-Casual",
+  "price": 799.00,
+  "original_price": 899.00,
+  "discount": 100.00,
+  "sizes": [
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "colors": [
+    "Olive Green",
+    "Mustard Yellow"
+  ],
+  "material": "100% Pure Slub Cotton",
+  "description": "Short casual ethnic kurta with wooden button placket, side pockets, and roll-up sleeves. Breathable slub textured cotton weave suitable for daily wear and college outings.",
+  "care_instructions": "Machine wash cold with similar colors. Warm iron. Do not tumble dry.",
+  "stock": 16,
+  "image": "assets/products/prod_005_main.jpg",
+  "source": "Rainbow Ready Mades Men's Casual Section Rack C-4",
+  "date_verified": "2026-09-18"
+}

@@ -1,0 +1,25 @@
+{
+  "product_id": "prod_001",
+  "product_name": "Pure Cotton Embroidered Anarkali Kurti",
+  "category": "Womens-Ethnic",
+  "price": 1099.00,
+  "original_price": 1299.00,
+  "discount": 200.00,
+  "sizes": [
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "colors": [
+    "Indigo Blue",
+    "Maroon"
+  ],
+  "material": "100% Breathable Cotton",
+  "description": "Authentic hand-embroidered kurti designed for daily and festive comfort. Made from premium pre-shrunk combed cotton with delicate floral needlework across the yoke and flare.",
+  "care_instructions": "Hand wash in cold water with mild liquid detergent. Do not bleach. Dry in shade. Warm iron on reverse.",
+  "stock": 14,
+  "image": "assets/products/prod_001_main.jpg",
+  "source": "Rainbow Ready Mades In-Store Inventory Rack A-3",
+  "date_verified": "2026-09-18"
+}

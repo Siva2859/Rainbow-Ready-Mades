@@ -1,0 +1,82 @@
+[
+  {
+    "faq_id": "faq_001",
+    "question": "What are the opening and closing hours of Rainbow Ready Mades?",
+    "verified_answer": "Rainbow Ready Mades is open Monday through Saturday from 10:00 AM to 09:00 PM, and on Sundays from 11:00 AM to 08:00 PM.",
+    "category": "TIMINGS",
+    "source": "Rainbow Ready Mades Store Manager",
+    "date_verified": "2026-09-18"
+  },
+  {
+    "faq_id": "faq_002",
+    "question": "Where is Rainbow Ready Mades located?",
+    "verified_answer": "Rainbow Ready Mades is located at 12 Gandhi Road, Near Clock Tower, Opposite Central Bank, Shop Local City, 600001.",
+    "category": "LOCATION",
+    "source": "Rainbow Ready Mades Store Manager",
+    "date_verified": "2026-09-18"
+  },
+  {
+    "faq_id": "faq_003",
+    "question": "What is the return and refund policy at Rainbow Ready Mades?",
+    "verified_answer": "We offer a 3-day exchange window from the date of purchase or delivery. Direct cash refunds are not provided; we issue size/color exchanges or store credit valid for 6 months. Garments must have original brand tags attached, be unworn, unwashed, and accompanied by the original receipt.",
+    "category": "POLICIES",
+    "source": "Rainbow Ready Mades Store Manager",
+    "date_verified": "2026-09-18"
+  },
+  {
+    "faq_id": "faq_004",
+    "question": "Can I exchange a garment if the size does not fit?",
+    "verified_answer": "Yes, you can exchange garments for a different size or color within 3 days of purchase or delivery, provided the tags are intact and the garment is unworn. You can request an exchange online or visit our shop directly.",
+    "category": "EXCHANGE",
+    "source": "Rainbow Ready Mades Store Manager",
+    "date_verified": "2026-09-18"
+  },
+  {
+    "faq_id": "faq_005",
+    "question": "Do you provide tailoring and alteration services?",
+    "verified_answer": "Yes, we provide complimentary minor alterations (such as pant/kurti length adjustments and waist tapering) on garments purchased at Rainbow Ready Mades. Alterations typically take 24 to 48 hours.",
+    "category": "ALTERATIONS",
+    "source": "Rainbow Ready Mades Store Manager",
+    "date_verified": "2026-09-18"
+  },
+  {
+    "faq_id": "faq_006",
+    "question": "What areas do you deliver to, and what are the delivery charges?",
+    "verified_answer": "We deliver within a 15 km radius of our shop on Gandhi Road. Delivery is FREE on orders of ₹999 or above. For orders under ₹999, a flat local delivery charge of ₹50 applies. Same-day delivery is available for orders placed before 3:00 PM.",
+    "category": "DELIVERY",
+    "source": "Rainbow Ready Mades Store Manager",
+    "date_verified": "2026-09-18"
+  },
+  {
+    "faq_id": "faq_007",
+    "question": "What payment methods are accepted?",
+    "verified_answer": "We accept Cash on Delivery (COD), UPI / QR payments (Google Pay, PhonePe, Paytm), and in-store payments (cash, credit/debit cards, UPI).",
+    "category": "PAYMENT",
+    "source": "Rainbow Ready Mades Store Manager",
+    "date_verified": "2026-09-18"
+  },
+  {
+    "faq_id": "faq_008",
+    "question": "How can I contact Rainbow Ready Mades staff directly?",
+    "verified_answer": "You can call or WhatsApp our store team directly at +919876543210 during operational hours, or email support@rainbowreadymades.local.",
+    "category": "CONTACT",
+    "source": "Rainbow Ready Mades Store Manager",
+    "date_verified": "2026-09-18"
+  },
+  {
+    "faq_id": "faq_009",
+    "question": "Do you have trial rooms at the physical shop?",
+    "verified_answer": "Yes, Rainbow Ready Mades has dedicated, air-conditioned trial and fitting rooms in-store so you can try garments before purchasing.",
+    "category": "STORE_AMENITIES",
+    "source": "Rainbow Ready Mades Store Manager",
+    "date_verified": "2026-09-18"
+  },
+  {
+    "faq_id": "faq_010",
+    "question": "Can I order online and pick up my clothes at the shop?",
+    "verified_answer": "Yes, you can choose 'Store Pickup' during online checkout. Your garments will be packed and held at the counter for free pickup at your convenience.",
+    "category": "DELIVERY",
+    "source": "Rainbow Ready Mades Store Manager",
+    "date_verified": "2026-09-18"
+  }
+]

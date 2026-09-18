@@ -1,0 +1,22 @@
+{
+  "product_id": "prod_004",
+  "product_name": "Women's Traditional Bandhani Saree",
+  "category": "Womens-Ethnic",
+  "price": 1499.00,
+  "original_price": 1799.00,
+  "discount": 300.00,
+  "sizes": [
+    "Free Size (5.5m Saree + 0.8m Unstitched Blouse Piece)"
+  ],
+  "colors": [
+    "Crimson Red",
+    "Mustard Yellow"
+  ],
+  "material": "Georgette with Traditional Bandhani Tie-Dye",
+  "description": "Authentic Rajasthani Bandhani printed saree adorned with gold zari woven border and delicate tassel detailing on pallu. Includes matching unstitched blouse fabric.",
+  "care_instructions": "Strictly dry clean only to preserve vibrant tie-dye colors and zari metallic shine.",
+  "stock": 8,
+  "image": "assets/products/prod_004_main.jpg",
+  "source": "Rainbow Ready Mades Saree Display Section S-1",
+  "date_verified": "2026-09-18"
+}

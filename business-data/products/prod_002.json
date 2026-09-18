@@ -1,0 +1,25 @@
+{
+  "product_id": "prod_002",
+  "product_name": "Men's Formal Linen Shirt",
+  "category": "Mens-Formal",
+  "price": 899.00,
+  "original_price": 999.00,
+  "discount": 100.00,
+  "sizes": [
+    "38",
+    "40",
+    "42",
+    "44"
+  ],
+  "colors": [
+    "White",
+    "Sky Blue"
+  ],
+  "material": "Pure Linen Blend",
+  "description": "Premium formal button-down shirt crafted from breathable woven linen blend. Tailored regular fit with structured collar and single chest pocket, perfect for office wear and warm climate.",
+  "care_instructions": "Machine wash gentle cycle or hand wash with cold water. Light starch recommended. Steam iron while damp.",
+  "stock": 20,
+  "image": "assets/products/prod_002_main.jpg",
+  "source": "Rainbow Ready Mades In-Store Inventory Rack B-1",
+  "date_verified": "2026-09-18"
+}
