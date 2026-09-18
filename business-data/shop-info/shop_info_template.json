@@ -1,0 +1,29 @@
+{
+  "shop_name": "Rainbow Ready Mades",
+  "address": "ENTER_VERIFIED_PHYSICAL_STREET_ADDRESS",
+  "landmark": "ENTER_NEARBY_LANDMARK",
+  "city": "ENTER_CITY",
+  "state": "ENTER_STATE",
+  "postal_code": "ENTER_POSTAL_PIN_CODE",
+  "phone": "ENTER_VERIFIED_PHONE_NUMBER_WITH_COUNTRY_CODE",
+  "whatsapp": "ENTER_VERIFIED_WHATSAPP_NUMBER_WITH_COUNTRY_CODE",
+  "instagram": "ENTER_INSTAGRAM_HANDLE_OR_URL",
+  "opening_hours": {
+    "monday_to_saturday": "ENTER_HOURS_EG_10_00_AM_TO_09_00_PM",
+    "sunday": "ENTER_HOURS_EG_11_00_AM_TO_08_00_PM_OR_CLOSED"
+  },
+  "delivery_areas": [
+    "ENTER_VERIFIED_LOCAL_DELIVERY_AREA_1",
+    "ENTER_VERIFIED_LOCAL_DELIVERY_AREA_2"
+  ],
+  "delivery_radius_km": 0,
+  "payment_methods": [
+    "Cash on Delivery",
+    "Store Pickup (Pay at Shop)",
+    "UPI / QR Code"
+  ],
+  "return_policy_summary": "ENTER_VERIFIED_RETURN_POLICY_SUMMARY",
+  "exchange_policy_summary": "ENTER_VERIFIED_EXCHANGE_POLICY_SUMMARY",
+  "source": "ENTER_VERIFICATION_SOURCE_PERSON",
+  "date_verified": "YYYY-MM-DD"
+}

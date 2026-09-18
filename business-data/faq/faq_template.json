@@ -1,0 +1,10 @@
+[
+  {
+    "faq_id": "faq_001",
+    "question": "ENTER_FREQUENT_CUSTOMER_QUESTION_HERE",
+    "verified_answer": "ENTER_ACCURATE_STORE_APPROVED_ANSWER_HERE",
+    "category": "ENTER_CATEGORY_EG_EXCHANGE_DELIVERY_TIMINGS_ALTERATION",
+    "source": "ENTER_VERIFICATION_SOURCE_EG_STORE_MANAGER_CONFIRMATION",
+    "date_verified": "YYYY-MM-DD"
+  }
+]

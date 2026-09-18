@@ -1,0 +1,22 @@
+{
+  "product_id": "ENTER_VERIFIED_PRODUCT_ID_EG_PROD_001",
+  "product_name": "ENTER_VERIFIED_GARMENT_NAME",
+  "category": "ENTER_CATEGORY_EG_WOMENS_ETHNIC_MENS_CASUAL_KIDS",
+  "price": 0.00,
+  "discount": 0.00,
+  "sizes": [
+    "ENTER_SIZE_1_EG_M",
+    "ENTER_SIZE_2_EG_L"
+  ],
+  "colors": [
+    "ENTER_COLOR_1",
+    "ENTER_COLOR_2"
+  ],
+  "material": "ENTER_FABRIC_COMPOSITION_EG_100_PERCENT_COTTON_LINEN_SILK",
+  "description": "ENTER_VERIFIED_GARMENT_DESCRIPTION_INCLUDING_WEAVE_AND_OCCASION",
+  "care_instructions": "ENTER_WASH_AND_CARE_INSTRUCTIONS",
+  "stock": 0,
+  "image": "assets/products/ENTER_IMAGE_FILENAME.jpg",
+  "source": "ENTER_VERIFIED_SOURCE_EG_STORE_INSPECTION_OR_OWNER_CONFIRMATION",
+  "date_verified": "YYYY-MM-DD"
+}
